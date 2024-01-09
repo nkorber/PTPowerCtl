@@ -8,7 +8,7 @@
 #ifndef FILTER_H_
 #define FILTER_H_
 
-#include <inttypes.h>	//uint8_t
+#include <stdint.h>	//uint8_t
 
 class BWFilter_LP_2_05_50 {
 protected:
@@ -21,6 +21,7 @@ public:
 	virtual long int getOut(uint8_t index);
 	virtual short int getsOut(uint8_t index);
 	virtual short int result(void);
+	virtual ~BWFilter_LP_2_05_50();
 
 
 };

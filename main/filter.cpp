@@ -17,6 +17,10 @@ BWFilter_LP_2_05_50::BWFilter_LP_2_05_50 (void){
 	mOut[1] = 0;
 }
 
+BWFilter_LP_2_05_50::~BWFilter_LP_2_05_50(){
+
+}
+
 short int BWFilter_LP_2_05_50::execute (short int in) {
 	// Shift mIn along with compute (256*In[2]+512*In[1]+256*In[0]...
 	long int temp = (mIn[2] = mIn[1]);

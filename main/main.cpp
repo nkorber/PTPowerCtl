@@ -4,7 +4,7 @@
 
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
-#include "esp_ota_ops.h"
+//#include "esp_ota_ops.h"
 #include "esp_app_desc.h"
 #include "esp_log.h"
 #include "esp_adc/adc_oneshot.h"
